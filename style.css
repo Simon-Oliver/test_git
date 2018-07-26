@@ -3,7 +3,19 @@
 }
 
 body{
+    height: 100vh;
+    width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    height: 80vh;
 }
 
 ul {
@@ -11,10 +23,21 @@ ul {
     padding: 0;
 }
 
-.container {
+.addBtn{
     display: flex;
     align-items: center;
-    flex-flow: column;
+    justify-content: center;
+    font-size: 30px;
+    background: #50e3a4;
+    padding: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-top: auto;
+}
+
+.addBtn span{
+    color: #46bd8a;
 }
 
 
