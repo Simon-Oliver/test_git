@@ -9,13 +9,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .container {
     display: flex;
     align-items: center;
     flex-flow: column;
-    height: 80vh;
+    height: 90vh;
+    width: 40vw;
 }
 
 ul {
@@ -43,7 +45,9 @@ ul {
 
 .toDoList {
     padding: 0;
-    width: 30vw;
+    width: 100%;
+    overflow: scroll;
+    margin-bottom: 20px;
 }
 
 
