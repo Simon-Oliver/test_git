@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     height: 100vh;
     width: 100vw;
@@ -10,6 +11,45 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0;
+}
+
+#myDIV.open {
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.popup-container{
+    align-self: auto;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+#myDIV input {
+    height: 20vh;
+    width: 50vw;
+    font-size: 30px;
+    align-self: auto;
+    margin: auto;
+    border-radius: 8px;
+}
+
+#myDIV.closed {
+    display: none;
+}
+
+.popUp-close{
+    width: 20px;
+    height: 20;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 10px;
 }
 
 .container {
@@ -36,6 +76,7 @@ ul {
     height: 50px;
     width: 50px;
     margin-top: auto;
+    cursor: pointer;
 }
 
 .addBtn span{
