@@ -45,8 +45,7 @@ body{
 }
 
 .popUp-close{
-    width: 20px;
-    height: 20;
+    height: 20px;
     cursor: pointer;
     margin: auto;
     margin-top: 10px;
