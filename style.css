@@ -12,12 +12,21 @@ body{
     margin: 0;
 }
 
+h2{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.header{
+    margin-bottom: 10px;
+}
+
 .container {
     display: flex;
     align-items: center;
     flex-flow: column;
     height: 90vh;
-    width: 40vw;
+    width: 50vw;
 }
 
 ul {
@@ -35,7 +44,10 @@ ul {
     border-radius: 50%;
     height: 50px;
     width: 50px;
-    margin-top: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 15%;
+    cursor: pointer;
 }
 
 .addBtn span{
