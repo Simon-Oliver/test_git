@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 
-
-body{
+body {
     height: 100vh;
     width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
@@ -23,8 +22,7 @@ body{
     flex-direction: column;
 }
 
-
-.popup-container{
+.popup-container {
     align-self: auto;
     margin: auto;
     color: white;
@@ -44,7 +42,7 @@ body{
     display: none;
 }
 
-.popUp-close{
+.popUp-close {
     height: 20px;
     cursor: pointer;
     margin: auto;
@@ -64,7 +62,7 @@ ul {
     padding: 0;
 }
 
-.addBtn{
+.addBtn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,10 +76,9 @@ ul {
     cursor: pointer;
 }
 
-.addBtn span{
+.addBtn span {
     color: #46bd8a;
 }
-
 
 .toDoList {
     padding: 0;
@@ -90,9 +87,7 @@ ul {
     margin-bottom: 20px;
 }
 
-
-
-.list-container{
+.list-container {
     display: flex;
     flex-flow: row;
     align-items: center;
@@ -101,17 +96,13 @@ ul {
     cursor: pointer;
 }
 
-
-.list-container:nth-child(odd){
+.list-container:nth-child(odd) {
     background: rgb(177, 177, 177);
 }
 
-
-div.list-container.background-checked:nth-child(odd){
+div.list-container.background-checked:nth-child(odd) {
     background: rgb(97, 97, 97);
 }
-
-
 
 ul li.checked {
     background: rgb(97, 97, 97);
@@ -130,7 +121,7 @@ div.background-checked {
     background: rgb(255, 47, 47);
     text-align: center;
     margin-left: auto;
-    padding:15px;
+    padding: 15px;
     text-decoration: none;
 }
 
